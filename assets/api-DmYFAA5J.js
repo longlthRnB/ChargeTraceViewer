@@ -1,0 +1,1 @@
+function i(){if(typeof window<"u"&&window.api)return window.api;throw new Error("BRIDGE_MISSING: window.api is not available (preload failed to load)")}function n(){return!(typeof window<"u"&&window.api)}export{i as g,n as i};
